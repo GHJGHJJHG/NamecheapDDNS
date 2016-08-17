@@ -4,9 +4,9 @@
 
 NamecheapDDNS is a Python script which leverages the url that Namecheap provides to update the A record of a domain.
 The following url is used:
-*
+
 https://dynamicdns.park-your-domain.com/update?host=**<Subdomain>**&domain=**<Domain>**&password=**<Dynamic DNS password>**&ip=**[ip. If left blank, public ip is used.]**
-*
+
 ## Installation
 
 You can copy the file NamecheapDDNS.py into your /usr/local/bin
