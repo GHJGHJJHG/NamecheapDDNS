@@ -13,7 +13,7 @@ You can copy the file NamecheapDDNS.py into your /usr/local/bin
 
 ## Usage
 
-Usage: updateNCIP <domain> <password> <subdomain> [-a | --ip <specifiedip>] [--help]
+Usage: updateNCIP \<domain\> \<password\> \<subdomain\> [-a | --ip <specifiedip>] [--help]
 Where subdomain is the host you want to assign an ip to (eg. "@", "www").
 NOTE: By default, the argument "\*" (wildcard) points to all of the files in a directory. To define a host that is a literal wildcard, use a backslash (eg. "\\*")
 
