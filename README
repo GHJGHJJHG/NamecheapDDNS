@@ -1,0 +1,25 @@
+.\" generated with Ronn/v0.7.3
+.\" http://github.com/rtomayko/ronn/tree/0.7.3
+.
+.TH "README" "" "August 2016" "" ""
+.
+.P
+\~ The following url is used (The script uses https):
+.
+.P
+dynamicdns\.park\-your\-domain\.com/update?host=\fB\e\fIsubdomain\e\fR\fR&domain=\fB\e\fIdomain\e\fR\fR&password=\fB\e\fIpassword\e\fR\fR&ip=\fB[ip\. If left blank, public ip is used\.]\fR
+.
+.SH "Installation"
+You can copy the file NamecheapDDNS\.py into your /usr/local/bin
+.
+.SH "Usage"
+Usage: updateNCIP \e\fIdomain\e\fR \e\fIpassword\e\fR \e\fIsubdomain\e\fR [\-a | \-\-ip \fIspecifiedip\fR] [\-\-help] Where subdomain is the host you want to assign an ip to (eg\. "@", "www")\. NOTE: By default, the argument "*" (wildcard) points to all of the files in a directory\. To define a host that is a literal wildcard, use a backslash (eg\. "\e*")
+.
+.SH "Contributing"
+Contribute as you would any other GitHub project\.
+.
+.SH "Dependencies"
+Requires Python3 and up\. Confirmed working with Python3\.4
+.
+.SH "License"
+Licensed under the LGPL, full text can be found at LICENSE\.txt
